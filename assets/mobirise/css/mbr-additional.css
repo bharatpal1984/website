@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+#dropdown-menu-2btn-0 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-0 .nav .link,
+#dropdown-menu-2btn-0 .dropdown-item {
+  font-size: 0.8em;
+  color: #ffffff;
+}
+#dropdown-menu-2btn-0 .navbar,
+#dropdown-menu-2btn-0 .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-2btn-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-0 .dropdown-menu a:hover,
+#dropdown-menu-2btn-0 .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-2btn-0 .navbar-toggler {
+  color: #ffffff;
+}
+#slider-1 H1 {
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+#dropdown-menu-2btn-4 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-4 .nav .link,
+#dropdown-menu-2btn-4 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-2btn-4 .navbar,
+#dropdown-menu-2btn-4 .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-2btn-4 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-4 .dropdown-menu a:hover,
+#dropdown-menu-2btn-4 .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-2btn-4 .navbar-toggler {
+  color: #ffffff;
+}
+#dropdown-menu-2btn-6 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-6 .nav .link,
+#dropdown-menu-2btn-6 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-2btn-6 .navbar,
+#dropdown-menu-2btn-6 .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-2btn-6 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-6 .dropdown-menu a:hover,
+#dropdown-menu-2btn-6 .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-2btn-6 .navbar-toggler {
+  color: #ffffff;
+}
+#dropdown-menu-2btn-a .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-a .nav .link,
+#dropdown-menu-2btn-a .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-2btn-a .navbar,
+#dropdown-menu-2btn-a .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-2btn-a .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-a .dropdown-menu a:hover,
+#dropdown-menu-2btn-a .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-2btn-a .navbar-toggler {
+  color: #ffffff;
+}

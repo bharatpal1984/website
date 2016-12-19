@@ -88,6 +88,12 @@
             "Theme"
           ],
           "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "text-align": "right",
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "social-buttons1-2",
           "_params": {
             "paddingTop": "0",
@@ -106,13 +112,7 @@
             "google": true,
             "twitter": true
           },
-          "text": "SHARE THIS!",
-          "_styles": {
-            ".mbr-header__text": {
-              "text-align": "right",
-              "color": "#ffffff"
-            }
-          }
+          "text": "SHARE THIS!"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -120,15 +120,24 @@
             "Theme"
           ],
           "_name": "slider",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": "0",
             "paddingBottom": "2",
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "image": "images/slide2.jpg",
                 "contentAlign": "left",
+                "overlay": false,
                 "showTitle": true,
                 "title": "Tour Packages",
                 "showText": true,
@@ -160,7 +169,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SEE DETAILS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CONTACT US</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/amaze-2000x838-56.png",
                 "contentAlign": "center",
                 "overlay": false,
@@ -177,15 +186,7 @@
             "showBullets": false
           },
           "_anchor": "slider-v",
-          "articleLayout": false,
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            },
-            "H1": {
-              "text-align": "left"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_tags": [
@@ -208,9 +209,9 @@
           },
           "title": "CONTACT FORM",
           "form": {
-            "action": "bharatpal1984@gmail.com",
+            "action": "info@ourtravels.in",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for filling out form! We will get back to you shortly!"
             },
             "fields": {
               "name": {
@@ -241,6 +242,17 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "UL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "contacts1-3",
           "_params": {
             "paddingTop": "2",
@@ -273,24 +285,21 @@
           },
           "text1": "<strong>Our Travels</strong><br>640, 2nd Floor,<br>Kesho Ram Complex,<br>Sector-45/C,<br>chandigarh-160047",
           "text2": "<strong>CONTACTS</strong><br>\nEmail: info@ourtravels.in<br>\nPhone: +91 (0172) 5018084&nbsp;<br>\nMob: +91 7696507170",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>",
-          "_styles": {
-            "STRONG": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#ffffff"
-            },
-            "UL": {
-              "color": "#ffffff"
-            }
-          }
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a href=\"index.html#form1-w\" class=\"text-warning\">Booking Form</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"index.html#contacts1-3\" class=\"text-warning\">Contact Us</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#252525",
+              "text-align": "center",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "footer1-i",
           "_params": {
             "paddingTop": "1",
@@ -304,15 +313,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#c1c1c1"
           },
-          "text": "Copyright (c) 2015 Our Travels. Developed By Bharat Pal.",
-          "_styles": {
-            "P": {
-              "color": "#252525",
-              "text-align": "center",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "text": "Copyright (c) 2015 Our Travels. Developed By Bharat Pal."
         }
       ]
     },
@@ -383,6 +384,17 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "UL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "contacts1-5",
           "_params": {
             "paddingTop": 3,
@@ -415,7 +427,7 @@
           },
           "text1": "<strong>Our Travels</strong><br>640, 2nd Floor,<br>Kesho Ram Complex,<br>Sector-45/C,<br>chandigarh-160047",
           "text2": "<strong>CONTACTS</strong><br>\nEmail: info@ourtravels.in<br>\nPhone: +91 (0172) 5018084&nbsp;<br>\nMob: +91 7696507170",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>"
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a href=\"index.html#form1-w\" class=\"text-warning\">Booking Form</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"index.html#contacts1-3\" class=\"text-warning\">Contact Us</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
         },
         {
           "_tags": [
@@ -569,6 +581,17 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "UL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "contacts1-7",
           "_params": {
             "paddingTop": 3,
@@ -601,13 +624,21 @@
           },
           "text1": "<strong>Our Travels</strong><br>640, 2nd Floor,<br>Kesho Ram Complex,<br>Sector-45/C,<br>chandigarh-160047",
           "text2": "<strong>CONTACTS</strong><br>\nEmail: info@ourtravels.in<br>\nPhone: +91 (0172) 5018084&nbsp;<br>\nMob: +91 7696507170",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>"
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a href=\"index.html#form1-w\" class=\"text-warning\">Booking Form</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"index.html#contacts1-3\" class=\"text-warning\">Contact Us</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#252525",
+              "text-align": "center",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "footer1-i",
           "_params": {
             "paddingTop": "1",
@@ -621,15 +652,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#c1c1c1"
           },
-          "text": "Copyright (c) 2015 Our Travels. Developed By Bharat Pal.",
-          "_styles": {
-            "P": {
-              "color": "#252525",
-              "text-align": "center",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "text": "Copyright (c) 2015 Our Travels. Developed By Bharat Pal."
         }
       ]
     },
@@ -699,6 +722,17 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "UL": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "contacts1-b",
           "_params": {
             "paddingTop": 3,
@@ -731,7 +765,7 @@
           },
           "text1": "<strong>Our Travels</strong><br>640, 2nd Floor,<br>Kesho Ram Complex,<br>Sector-45/C,<br>chandigarh-160047",
           "text2": "<strong>CONTACTS</strong><br>\nEmail: info@ourtravels.in<br>\nPhone: +91 (0172) 5018084&nbsp;<br>\nMob: +91 7696507170",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>"
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>www.ourtravels.in</li><li><a href=\"index.html#form1-w\" class=\"text-warning\">Booking Form</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"index.html#contacts1-3\" class=\"text-warning\">Contact Us</a><a class=\"mbr-contacts__link text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
         }
       ]
     }
